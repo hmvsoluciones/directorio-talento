@@ -1,0 +1,19 @@
+{
+  "name": "directorio-talento",
+  "version": "0.0.1",
+  "description": "Directorio de talento landing page",
+  "main": "index.js",
+  "authors": {
+    "name": "HMV Soluciones",
+    "email": "hmv.soluciones@gmail.com"
+  },
+  "repository": "https://github.com/hmvsoluciones/directorio-talento.git/directorio-talento",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
