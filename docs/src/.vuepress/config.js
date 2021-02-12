@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Portal de Procesos Demo',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,12 +34,20 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'Procesos',
+        link: '/procesos/',
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'Chinese', link: '/language/chinese/' },
+          { text: 'Japanese', link: '/language/japanese/' }
+        ]
       },
       {
         text: 'VuePress',
@@ -52,8 +60,21 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
-            '',
+            '',            
             'using-vue',
+          ]
+        }
+      ],
+      '/procesos/': [
+        {
+          title: 'Sistema de gestión de calidad',
+          collapsable: false,
+          children: [
+            '',
+            'proceso-a',
+            'proceso-b',
+            'proceso-c',
+            'proceso-d',
           ]
         }
       ],
