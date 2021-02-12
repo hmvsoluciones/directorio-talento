@@ -6,6 +6,10 @@ module.exports = {
    */
   title: 'Portal de Procesos Demo',
   /**
+   * Configuration GH-PAGE
+   */
+  base: "/directorio-talento/",
+  /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
@@ -40,14 +44,6 @@ module.exports = {
       {
         text: 'Guide',
         link: '/guide/',
-      },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
-        ]
       },
       {
         text: 'VuePress',
